@@ -1,2 +1,2 @@
 # CryptoMailer
-A package to send and receive encrypted mails thorugh Gmail.
+A package to send and receive encrypted mails through Gmail.
