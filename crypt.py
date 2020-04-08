@@ -52,7 +52,6 @@ def encrypto(Key, Message):
 def decrypto(Key, Message):
     AlphaKey = alphakey_gen(Key)
     message = Message.upper()
-
     decrypted_text = ""
     for i in range(len(message)):
         if message[i] == chr(32):
