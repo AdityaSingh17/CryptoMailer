@@ -4,13 +4,15 @@ A package to send and receive encrypted emails via Gmail.
 
 Encryption and decryption are done with the help of **Keyword Cipher** algorithm.
 
-**NOTE:** Make sure to allow less secure app access for the Gmail account(s) that will be used to send/receive emails through this package.
+## Research Paper Publication Details
 
-Provide less secure app access from [here](https://myaccount.google.com/lesssecureapps).
+Paper number 11, Volume 9, Issue 7, July 2020 edition of [International Journal of Innovative Research in Science, Engineering and Technology](http://www.ijirset.com/volume-9-issue-7.html).
 
-## Package Details
+Direct link to the research paper: http://www.ijirset.com/upload/2020/july/11_The.PDF
 
-PyPI link to package: https://pypi.org/project/cryptomailer/
+## PyPI Package Details
+
+PyPI link to the package: https://pypi.org/project/cryptomailer/
 
 ### Directory Structure:
 
@@ -34,6 +36,10 @@ CryptoMailer/
 -   `setup.py`: File responsible to manage package.
 
 ### Using the package.
+
+**NOTE:** Make sure to allow less secure app access for the Gmail account(s) that will be used to send/receive emails through this package.
+
+Provide less secure app access from [here](https://myaccount.google.com/lesssecureapps).
 
 View file [sample.py](https://github.com/AdityaSingh17/CryptoMailer/blob/master/sample.py) to understand how to import and run the package.
 
