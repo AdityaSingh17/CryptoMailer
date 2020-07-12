@@ -5,7 +5,7 @@ import getpass
 import imaplib
 import email
 import sys
-import crypt
+from cryptomailer import crypt
 
 
 def mailer_receive():
@@ -13,7 +13,7 @@ def mailer_receive():
     M = imaplib.IMAP4_SSL("imap.gmail.com")
 
     # Get user inputs.
-    recevieremail_id = str(input("Enter the receiver email id: "))
+    recevieremail_id = str(input("Enter the receiver Email ID: "))
     recevierpassword = str(getpass.getpass("Enter receiver Password: "))  # Hide password while typing.
     # Request login of the receiver.
     try:

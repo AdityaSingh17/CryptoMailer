@@ -4,7 +4,7 @@ Script to send an encrypted message via Gmail to the intended user.
 import getpass
 import smtplib
 import sys
-import crypt
+from cryptomailer import crypt
 
 
 def mailer_send():
